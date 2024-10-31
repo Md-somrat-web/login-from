@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.login {
+  display: flex;
+  background-color: #2b2738;
+  height: 100vh;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+.photo img {
+  width: 500px;
+}
+.titel {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.titel h1 {
+  font-size: 44px;
+  color: #fff;
+}
+.titel p {
+  font-size: 22px;
+}
+.flex {
+  display: flex;
+  gap: 15px;
+  border-radius: 8px;
+}
+.flex input {
+  padding: 10px;
+}
+form input {
+  background-color: #3b364c;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 0;
+  align-items: center;
+}
+.btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #3b364c;
+  color: #fff;
+}
